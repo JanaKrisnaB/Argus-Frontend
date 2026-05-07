@@ -47,7 +47,7 @@ When the agent receives the code, the loop looks like this:
 
 LLMs, even when using tools, can still be overly eager to point out trivial issues. Argus implements a **Critic layer** (an LLM-as-a-Judge) to filter the output.
 
-After the ReAct agent generates its raw review, the text is parsed into individual JSON objects (Line, Comment, Severity, Confidence). 
+After the ReAct agent generates the raw review, the text is parsed into individual JSON objects (Line, Comment, Severity, Confidence). 
 
 Each comment is then sent independently to the **Critic Chain** (`core/critic.py`). The critic asks four strict questions:
 1. Is the line number plausible?
