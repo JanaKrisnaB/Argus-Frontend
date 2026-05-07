@@ -23,7 +23,7 @@ A standard LLM (like ChatGPT or Claude) given a prompt to "review this code" suf
 - Passing all generated comments through a strict **Critique Agent** that rejects useless or hallucinated feedback.
 - Using a local **Vector Database (ChromaDB)** to remember past approved comments, ensuring the system "learns" a team's preferences over time without needing to be retrained.
 
-## 3. How RL (Reinforcement Learning) is Used
+## 3. How RL (Reinforcement Learning) is used:
 
 *Note: The codebase **does not** use Reinforcement Learning (like PPO or RLHF) in the traditional sense.* 
 
