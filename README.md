@@ -25,7 +25,7 @@ A standard LLM (like ChatGPT or Claude) given a prompt to "review this code" suf
 
 ## 3. How RL (Reinforcement Learning) is used:
 
-*Note: The codebase **does not** use Reinforcement Learning (like PPO or RLHF) in the traditional sense.* 
+*Note: The codebase doesn't use Reinforcement Learning (like PPO or RLHF) in the traditional sense.* 
 
 Instead of mathematically updating neural network weights (which is expensive and slow), Argus simulates "learning from feedback" using **Retrieval-Augmented Generation (RAG)**. 
 
