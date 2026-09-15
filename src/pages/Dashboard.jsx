@@ -54,7 +54,7 @@ export default function Dashboard() {
         <StatCard label="Memory Records"  value={loading ? '...' : memCount} sub="Isolated to your account" />
         <StatCard label="Reviews Done"    value={loading ? '...' : revCount} sub="Via Playground" />
         <StatCard label="Active Config"   value="C" sub="Full system (recommended)" />
-        <StatCard label="LLM Model"       value="Llama 3.3" sub="70B via Groq" />
+        <StatCard label="LLM Model"       value="meta-llama" sub="7 via Groq" />
       </div>
 
       {/* Quick actions */}
